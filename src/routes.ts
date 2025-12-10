@@ -6,6 +6,7 @@ export default [
   index("./home.tsx"),
   route("about", "./about.tsx"),
   route("dashboard", "./dashboard.tsx"),
+  route("login", "./pages/authentications/login.tsx"),
   route("*?", "./catchall.tsx"),
 ] satisfies RouteConfig;
    
