@@ -1,0 +1,172 @@
+.body-20{
+    background-color: rgb(7, 7, 83);
+
+
+}
+   
+   
+
+
+
+
+#container-A{
+    background-color: gray;
+    border: 7PX solid black;
+    width: 40%;
+    height: 200%;
+    padding: 20PX 25PX;
+    padding-left: 30PX ;
+    margin: 18px;
+    margin-top: 80PX;
+   
+    display: inline-block;
+    float: left;
+
+
+
+
+}
+
+
+
+#container-B{
+    background-color: gray;
+    border: 7PX solid black;
+    width: 40%;
+    height: 200%;
+    padding: 20PX 25PX;
+    padding-left: 30PX ;
+    margin: 18px;
+    margin-top: 80PX;
+   
+    display: inline-block;
+    float: left;
+        padding-bottom: 150PX;
+
+
+
+
+
+}
+
+
+#container-C{
+    background-color: gray;
+    border: 7PX solid black;
+    width: 40%;
+    height: 220%;
+    padding: 20PX 25PX;
+    padding-left: 30PX ;
+    margin-right: 38px;
+    padding-bottom: 80PX;
+    
+    margin-top: 220PX;
+    float: inline-end;
+   
+    float: right;
+
+
+
+
+}
+
+
+#container-D{
+    background-color: gray;
+    border: 7PX solid black;
+    width: 40%;
+    height: 200%;
+    padding: 20PX 25PX;
+    padding-left: 30PX ;
+    margin: 18px;
+        margin-top: 100PX;
+        margin-left: 200PX;
+    float: inline-start;
+    
+
+   
+
+
+
+
+}
+
+
+html,body{
+
+    margin: 0px;
+}
+
+h1{
+
+    color: aqua;
+    margin-left: 50%;
+    box-shadow: blue;
+     margin-bottom: 40PX;
+}
+
+
+h2{
+    border: 5PX solid rgb(193, 83, 83);
+    border: 20PX  groove black;
+    background-color: gray;
+   
+    font-size: 40PX;
+    text-align: center;
+   
+    font-size: 20PX;
+    padding-bottom: 45PX;
+    padding-top: 5PX ;
+    width: 50% ;
+    height: 50%;
+    margin-left: 160PX ; 
+   
+
+}
+
+
+
+img{
+    border: 20PX  groove black;
+    margin : 10PX;
+  
+    width: 50% ;
+    height: 50%;
+    padding-bottom: 0% ;
+    float: inline-start;
+    margin-left: 160PX ; 
+
+
+  
+
+    
+
+    
+}
+
+P{
+    border:  5PX solid black;
+    background-color: white;
+    border: 20PX  inset black;
+   
+    margin-right: 70PX;
+    margin-top: 0px;
+   
+    padding-top: 10PX;
+    padding-bottom: 10PX;
+    padding-left: 10PX;
+    padding-right: 10PX;
+     width: 50% ;
+    height: 50%;
+    text-align: center;
+    
+    
+
+
+}
+
+
+
+
+
+
