@@ -1,148 +1,134 @@
 import "../styles/WebDesigner.css";
+
 export default function WebDesigner(){
     
 
     return (
 
         <>
+        <body className="body-A">
+   <div className="squiere-A">
+<h1> Offre d'emploie - WebDesigner</h1>
 
- <body className="body-9">   
+<h2> Helya </h2>
 
-    <div  className="Boite-X1">
+<p> Casablanca </p>
+</div>
 
 
+   <hr />
 
-    <h6 className ="h-19"> WebDesigner </h6>
+   <div className="squiere-B">
+         <i id="Last-i" className="ri-shopping-bag-4-fill"> Type de poste </i>
 
 
-    <p className ="P-19"> La formation Web Designer proposée par Ynov Campus a pour objectif de former des professionnels capables de concevoir des interfaces web esthétiques, ergonomiques et centrées sur l’utilisateur.
-               
-     </p>
 
 
 
 
-            </div>
+   
 
 
+</div>
 
+         <button className="button-A"> CDI </button>
 
-            <div className="Boite-AA">
+   <hr />
 
 
-                <img className="img-AA"
+   <h1> Lieu </h1>
+   <div className="squiere-C">
 
-src="public\img\Web designer\preview.avif" alt="home image1" />
 
-            
-                 <h3 id="last-h"> Campus Ynov </h3>  
 
 
 
 
+   <i id="First-i" className="ri-map-pin-fill">Casablanca</i>
 
-            </div>
 
+</div>
 
 
+  <hr />
 
-        
-                <div className="Boite-BB">
-<img className="img-BB" src="public\img\Web designer\concept-programmation-navigation-technologie-conception-web_53876-163260.avif"/>
+   <div className="squiere-D">
 
-        
+        <h1> Description du poste</h1>
 
-                 <h3 id="last-h"> Campus Ynov </h3>  
+      
 
+      <p> 
+    Helya Ménage, marque marocaine spécialisée dans les articles et équipements de maison, <br />
+    recrute un(e) Web Designer / Gestionnnaire de site é-commerce expérimenté(e) pour rejoindre <br />
+    son équipe à casablanca. Le condidat ideal doit etre  créatif, autonome et deja expérimenté dans <br />
+    la gestion de boutique en ligne
+      </p>
 
-                
 
 
+      </div>
 
+          
+<div>
 
+       <h2> Missions</h2>
 
-            </div>
+      <ul>
+         <li> Gerer et metre a jour le site e-commerce (Shopify / Wordpress).  </li>
+         <li> Concevoir des landing pages modernes et optimisées pour la conversion. </li>
+         <li> Crée et actualiser les visueles, bannieres et fiches produits. </li>
+         <li> Maintenir une cohérence viduelle avec l'image de la marque  </li>
 
+      </ul>
+</div>
 
 
 
-            <div className="Boite-CC">
+      <div>
+<h1>  Profils recherché </h1>
+   <ul>
+         <li> Expérience préable exigée (au moins 2 ans dans un poste similaire) </li>
+         <li> Maitrise Spotify ou WordPress/WooCommerce  </li>
+         <li> Compétene en designe visuel Figma, Canva, Photoshop </li>
+         <li> Bon sens  de l'érgonomie UX/UI et du marqution digial</li>
+   </ul>
 
 
-             <img className="img-CC" src="public\img\Web designer\Basics-of-Web-Design.png" alt="home image1" />
+      </div>
+    
+<div>
 
+<h1> Pour postuler </h1>
 
-                 <h3 id="last-h"> Campus Ynov </h3>  
 
+      <ul>
+         <li> Envoyer votre CV + Portfolio (ou exemples de réalisations) </li>
+         <li> Type d'emploi : CDI </li>
+         <li> Rénumération : 4.5000,00DH à 6.000,00DH par mois  </li>
 
+      </ul>
 
+</div>
 
 
 
-            </div>
 
+ <hr />
 
+<div>
 
 
-            <div className ="Boite-DD">
+      <button> Postuler maintenant </button>
+      <button> Enregistrer l'emploi </button>
+      <button> Signaler l'offre </button>
 
+</div>
 
-    <img className="img-DD" src="public\img\Web designer\ABC-of-Web-Design-2.png" alt="home image1" />
+<hr />
 
-        
 
-                 <h3 id="last-h"> Campus Ynov </h3>  
-
-
-
-
-
-
-            </div>
-
-
-
-            <div className="Boite-EE">
-
-
-                <img className ="img-EE" src="public\img\Web designer\577-5770074_web-design-transparent-background-logo-for-web-designing.png" alt="home image1" />
-
-            
-                 <h3 id="last-h"> Campus Ynov </h3>  
-                
-
-
-
-
-
-            </div>
-
-
-
-
-
-
-            <div className="Boite-FF">
-
-
-                <img className="img-FF"
-
-                 src="public\img\Web designer\096c991250c541b762b974430f287263.jpg" alt="home image1" />
-
-
-                 <h3 id ="last-h"> Campus Ynov </h3>  
-
-                 
-
-
-
-            </div>
-
-
-
-
-
- </body>   
+</body>
 
 
         </>

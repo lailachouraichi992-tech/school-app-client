@@ -1,137 +1,136 @@
 import "../styles/DataEngenieur.css";
 
-
 export default function DataEngenieur(){
     
 
     return (
 
         <>
-             <body className="body-7">  
-
-    <div id="cadre-R">
 
 
+   <div className="squiere-A">
+<h1> Offre d'emploie - DataEngenieur</h1>
 
-     <h6 id="h-9"> DataEngenieur </h6>
+<h2> CRIT Maroc </h2>
 
-
-      <p id="P-9"> La formation Data Engineer proposée par Ynov Campus a pour objectif de former des experts capables de concevoir, construire et maintenir des architectures de données robustes et évolutives.  </p>
-
-
-
-
-            </div>
+<p> Maarif </p>
+</div>
 
 
+   <hr />
+
+   <div className="squiere-B">
+
+      <i id="Last-i" className="ri-shopping-bag-4-fill"> Type de poste </i>
+
+<h1> Type de poste </h1>
+
+         <button className="button-A">Intérim</button>
+         <button className="button-A">Temps plein</button>
 
 
-            <div className="cadre-A">
+   
 
 
-                <img id="img-A1"
+</div>
+   <hr />
+   <div className="squiere-C">
 
-                    src="public\img\Data Engineer\Data-Science-Marmore-Blog-Cover.jpg" alt="bright image1" />
+<h1> Lieu </h1>
 
+   <i id="First-i" className="ri-map-pin-fill">Maarif</i>
 
-                 <h3 className="h-10"> Campus Ynov</h3>  
-                 
-
-
-
-
-            </div>
+</div>
 
 
+  <hr />
 
+   <div className="squiere-D">
 
-            <div className="cadre-N">
+        <h1> Description du poste</h1>
 
+      
 
-                <img id="img-A2" src="public\img\Data Engineer\68dfd07b6fd53207b7a9f7fa_6630f8a74134036b8b3e8d79_Data20vs20Analyst.webp" alt=" bright image1" />
-
-        
-
-        <h3 className="h-10">  Campus Ynov </h3>
-
-
-                
-
+      <p> 
+      Nous recherchons un Data Analyst pour l'un de nous clients basé sur Casablanca
+      </p>
 
 
 
+      </div>
 
-            </div>
+          
+<div>
+
+       <h2> Principales Missions</h2>
+
+      <ul>
+         <li> Collecte dinformation (Analyse documentaires, 
+            recherches sur terrain, entrretien exploratoire) </li>
+         <li> Structuration et analyse  e données  </li>
+         <li> Elaboration de rapports de sythése et d'étude de marché  </li>
+         <li>Support de collect des données ventes et stocks grossiste </li>
+
+      </ul>
+</div>
 
 
 
+      <div>
+<h1>Qualités requises </h1>
+   <ul>
+         <li> Gout pour le travail en monde projet </li>
+         <li> Capacité de négociation et de conviction  </li>
+         <li> Autonomie, dynamisme  </li>
+         <li> Capacité d'intiative et force de proposition </li>
+   </ul>
 
-            <div id="cadre-T">
 
+      </div>
+      <div>
+    <h1> Professionnelles </h1>
 
-             <img id="img-A3" src="public\img\Data Engineer\data-science-image-for-blog.jpg" alt="bright image1" />
+      <ul>
+         <li> Capacité danalyse et de synthése </li>
+         <li> Rigeur, autonomie, dynamisme et sens de linitiative </li>
+         <li> Aptitude à évoluer dans un environnement complexe avec des interlocuteurs multiples </li>
 
-
-               <h3 className="h-10">  Campus Ynov </h3>
-
+       </ul>
 
        </div>
+<div>
+
+<h1> Formation</h1>
+
+
+      <ul>
+         <li> Formation universtaire ou diplome d'une école d'ingénieur ou de commerce </li>
+         <li> Expérience au moins 3 ans d'expérience </li>
+         <li> bac + 2 (BTS,DUT) (Optionnel)  </li>
+
+      </ul>
+
+</div>
 
 
 
 
-            <div id="cadre-U">
+ <hr />
+
+<div>
 
 
-    <img id="img-A4" src="public\img\Data Engineer\study-data-science-online.webp" alt="bright image1" />
+      <button> Postuler maintenant </button>
+      <button> Enregistrer l'emploi </button>
+      <button> Signaler l'offre </button>
 
-        
+</div>
 
-                <h3 className="h-10">  Campus Ynov  </h3> 
-
-
-
-
-
-
-            </div>
+<hr />
 
 
 
-            <div className="cadre-V">
-
-
-                <img id="img-A5" src="public\img\Data Engineer\68dfd07b6fd53207b7a9f7fa_6630f8a74134036b8b3e8d79_Data20vs20Analyst.webp" alt="bright image1" />
-
-            
-                <h3 className="h-10">  Campus Ynov   </h3> 
-                
-
-
-
-
-
-            </div>
-
-
-
-            <div className="cadre-S">
-
-
-                <img id="img-A6" src="public\img\Data Engineer\DATA-ENGINEER.jpg" alt="bright image1" />
-
-            
-                <h3 className="h-10">   Campus Ynov </h3> 
-                
-
-
-
-
-
-            </div>
-
-</body>  
         </>
+  );
 
-    )
-};
+}

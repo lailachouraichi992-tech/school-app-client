@@ -1,8 +1,8 @@
 
-import "../styles/offredestagel.css";
+import "../styles/offredestage.css";
 
 
-export default function Offredestagel(){
+export default function Offredestage(){
     
 
     return (
