@@ -22,7 +22,7 @@ export default function Home(){
         <Link to="/acceuille" > Acceuille </Link>
         <Link to="/formation"> formation </Link>
         <Link to="/Offredemploie" > offredemploie </Link>
-        <Link to="/Espace etudiants" > espace etudiants </Link>
+        <Link to="/offredestage" > offredestage </Link>
 
 
 
