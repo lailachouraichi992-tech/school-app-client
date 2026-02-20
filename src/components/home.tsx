@@ -19,10 +19,11 @@ export default function Home(){
 
 
       
-        <Link to="/acceuille" > Acceuille </Link>
+  
+        <Link to="/"> Acceuille </Link>
         <Link to="/formation"> formation </Link>
         <Link to="/Offredemploie" > offredemploie </Link>
-        <Link to="/offredestage" > offredestage </Link>
+        <Link to="/offredestage" > offredestage  </Link>
 
 
 
