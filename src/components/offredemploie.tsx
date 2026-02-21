@@ -33,7 +33,7 @@ export default function Offredemploie() {
     <>
       <div className="body-1">
         <div className="container-1">
-          <a href="DeveloppeurFullStack">DeveloppeurFullStack</a>
+          <Link to="/DeveloppeurFullStack">DeveloppeurFullStack</Link>
           <h2 className="first-h2">Casablanca</h2>
           <p className="first-p">Jobinetech</p>
           <button>Temps plein</button>
@@ -41,27 +41,28 @@ export default function Offredemploie() {
 
         <div className="container-2">
           <a href="DataEngenieur">DataEngenieur</a>
+          
           <h2 className="first-h2">Casablanca</h2>
           <p className="first-p">Jobinetech</p>
           <button>Temps plein</button>
         </div>
 
         <div className="container-3">
-          <a href="Excel">Excel</a>
+          <Link to="/Excel">Excel</Link>
           <h2 className="first-h2">Casablanca</h2>
           <p className="first-p">Jobinetech</p>
           <button>Temps plein</button>
         </div>
 
         <div className="container-4">
-          <a href="WebDesigner">WebDesigner</a>
+          <Link to="/WebDesigner">WebDesigner</Link>
           <h2 className="first-h2">Casablanca</h2>
           <p className="first-p">Jobinetech</p>
           <button>Temps plein</button>
         </div>
 
         <div className="container-5">
-          <a href="MarketingDigital">MarketingDigital</a>
+          <Link to="/MarketingDigital">MarketingDigital</Link>
           <h2 className="first-h2">Casablanca</h2>
           <p className="first-p">Jobinetech</p>
           <button>Temps plein</button>
