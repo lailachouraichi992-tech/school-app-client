@@ -30,7 +30,7 @@ export default function Offredemploi() {
   }, []);
 
   return (
-    <div className="body-1">
+  <div className="SQUARE-A">
       <div className="container-1">
         <Link to="/DeveloppeurFullStack">DeveloppeurFullStack</Link>
         <h2 className="first-h2">Casablanca</h2>
