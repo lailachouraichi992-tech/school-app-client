@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/offredemploie.css";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import api from "../libs/Api";
 
 type Offer = {
@@ -12,7 +12,7 @@ type Offer = {
   [key: string]: any;
 };
 
-export default function Offredemploie() {
+export default function Offredemploi() {
   const [offers, setOffers] = useState<Offer[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<any>(null);
@@ -30,44 +30,13 @@ export default function Offredemploie() {
   }, []);
 
   return (
-    <>
-      <div className="body-1">
-        <div className="container-1">
-          <Link to="/DeveloppeurFullStack">DeveloppeurFullStack</Link>
-          <h2 className="first-h2">Casablanca</h2>
-          <p className="first-p">Jobinetech</p>
-          <button>Temps plein</button>
-        </div>
-
-        <div className="container-2">
-          <a href="DataEngenieur">DataEngenieur</a>
-          
-          <h2 className="first-h2">Casablanca</h2>
-          <p className="first-p">Jobinetech</p>
-          <button>Temps plein</button>
-        </div>
-
-        <div className="container-3">
-          <Link to="/Excel">Excel</Link>
-          <h2 className="first-h2">Casablanca</h2>
-          <p className="first-p">Jobinetech</p>
-          <button>Temps plein</button>
-        </div>
-
-        <div className="container-4">
-          <Link to="/WebDesigner">WebDesigner</Link>
-          <h2 className="first-h2">Casablanca</h2>
-          <p className="first-p">Jobinetech</p>
-          <button>Temps plein</button>
-        </div>
-
-        <div className="container-5">
-          <Link to="/MarketingDigital">MarketingDigital</Link>
-          <h2 className="first-h2">Casablanca</h2>
-          <p className="first-p">Jobinetech</p>
-          <button>Temps plein</button>
-        </div>
+    <div className="body-1">
+      <div className="container-1">
+        <Link to="/DeveloppeurFullStack">DeveloppeurFullStack</Link>
+        <h2 className="first-h2">Casablanca</h2>
+        <p className="first-p">Jobinetech</p>
+        <button>Temps plein</button>
       </div>
-    </>
+    </div>
   );
 }
