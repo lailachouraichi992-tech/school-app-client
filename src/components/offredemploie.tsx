@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import "../styles/offredemploie.css";
 import { Link } from "react-router";
@@ -13,7 +12,7 @@ type Offer = {
   [key: string]: any;
 };
 
-export default function offredemploie() {
+export default function Offredemploie() {
   const [offers, setOffers] = useState<Offer[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<any>(null);
@@ -24,96 +23,50 @@ export default function offredemploie() {
     api
       .get("/offres")
       .then((data) => {
-        // Attendez-vous à un tableau depuis le backend; adaptez si besoin
         setOffers(Array.isArray(data) ? data : []);
       })
       .catch((err) => setError(err))
       .finally(() => setLoading(false));
   }, []);
 
-    return (
-
+  return (
     <>
+      <div className="body-1">
+        <div className="container-1">
+          <a href="DeveloppeurFullStack">DeveloppeurFullStack</a>
+          <h2 className="first-h2">Casablanca</h2>
+          <p className="first-p">Jobinetech</p>
+          <button>Temps plein</button>
+        </div>
 
+        <div className="container-2">
+          <a href="DataEngenieur">DataEngenieur</a>
+          <h2 className="first-h2">Casablanca</h2>
+          <p className="first-p">Jobinetech</p>
+          <button>Temps plein</button>
+        </div>
 
+        <div className="container-3">
+          <a href="Excel">Excel</a>
+          <h2 className="first-h2">Casablanca</h2>
+          <p className="first-p">Jobinetech</p>
+          <button>Temps plein</button>
+        </div>
 
+        <div className="container-4">
+          <a href="WebDesigner">WebDesigner</a>
+          <h2 className="first-h2">Casablanca</h2>
+          <p className="first-p">Jobinetech</p>
+          <button>Temps plein</button>
+        </div>
 
-<body className="body-1">
-<div className="container-1"> 
-
-  <a href="DeveloppeurFullStack"> DeveloppeurFullStack </a>
-   <h2 className="first-h2">Casablanca</h2>
-
- <p className="first-p">Jobinetech</p>
-  <button> Temps plein </button>
-    
-
-</div>
-
-   <div className="container-2">
-
-  <a href="DataEngenieur">DataEngenieur</a>
-
-   <h2 className="first-h2">Casablanca</h2>
-
- <p className="first-p">Jobinetech</p>
-     <button> Temps plein </button>
-
-
-</div>
-
-   <div className="container-3">
-
-    <a href="Excel">Excel</a>
-
-   <h2 className="first-h2">Casablanca</h2>
-
- <p className="first-p">Jobinetech</p>
-     <button> Temps plein </button>
-
-
-
-
-</div>
-
-
-
-   <div className="container-4">
-
-    <a href="WebDesigner"> WebDesigner</a>
-
-   <h2 className="first-h2">Casablanca</h2>
-
- <p className="first-p">Jobinetech</p>
-     <button> Temps plein </button>
-
-
-
-
-</div>
-
-
-
-   <div className="container-5">
-
-    <a href="MarketingDigital"> MarketingDigital </a>
-
-   <h2 className="first-h2">Casablanca</h2>
-
- <p className="first-p">Jobinetech</p>
-     <button> Temps plein </button>
-
-
-
-
-</div>
-
-
-
-</body>
-
-
+        <div className="container-5">
+          <a href="MarketingDigital">MarketingDigital</a>
+          <h2 className="first-h2">Casablanca</h2>
+          <p className="first-p">Jobinetech</p>
+          <button>Temps plein</button>
+        </div>
+      </div>
     </>
   );
-
 }
