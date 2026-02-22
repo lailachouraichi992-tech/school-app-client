@@ -50,7 +50,7 @@ export default function Formation(){
     
 <div id="container-A">
  
-<img  id="image-c" src="public\img\Stages Ynov\web-development.png" alt="bright image1" />
+<img  id="image-c" src="/img/StagesYnov/web-development.png" alt="bright image1" />
 
 
 <p  id="last-p"> Competence </p>
@@ -60,7 +60,7 @@ export default function Formation(){
 <div id="container-B">
 
    
-  <img id="image-c"  src="public\img\Stages Ynov\735a37d7e5ea-Template-Article-Blog-2-.avif" alt="bright image1" />
+  <img id="image-c" src="/img/StagesYnov/e3faa65a8977-JD-dedie-Thales-cover.avif" alt="bright image1" />
 
 
 
@@ -76,7 +76,7 @@ export default function Formation(){
 <div id="container-C">
 
    
- <img id="image-c"  src="public\img\Stages Ynov\WhatsApp Image 2024-12-18 at 23.08.52 (1).jpeg" alt="bright image1" />
+ <img id="image-c" src="/img/StagesYnov/09ae3a335213-myc-article-AD-25-02-1240x804px.avif" alt="bright image1" />
 
 
 <p id="last-p"> Campus Ynov </p>
@@ -89,7 +89,7 @@ export default function Formation(){
 <div  id="container-D">
 
    
-<img id="image-c"  src="public\img\Stages Ynov\WhatsApp Image 2025-12-28 at 22.29.10.jpeg" alt="bright image1" />
+<img id="image-c" src="/img/StagesYnov/4a2f65c3ff66-stages-decouverte-visuel-bloc.avif" alt="bright image1" />
 
 
 
@@ -104,7 +104,7 @@ export default function Formation(){
 <div  id="container-E">
 
    
-  <img  id="image-c"  src="public\img\Stages Ynov\e3faa65a8977-JD-dedie-Thales-cover.avif" alt="bright image1" />
+  <img id="image-c" src="/img/Stages Ynov/e3faa65a8977-JD-dedie-Thales-cover.avif" alt="bright image1" />
 
 
 
@@ -120,7 +120,7 @@ export default function Formation(){
 
    
 
-  <img  id="image-c"  src="public\img\Stages Ynov\735a37d7e5ea-Template-Article-Blog-2-.avif" alt="bright image1" />
+  <img  id="image-c" src="/img/Stages Ynov/735a37d7e5ea-Template-Article-Blog-2-.avif" alt="bright image1" />
 
 
 
