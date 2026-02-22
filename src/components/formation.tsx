@@ -104,7 +104,7 @@ export default function Formation(){
 <div  id="container-E">
 
    
-  <img id="image-c" src="/img/Stages Ynov/e3faa65a8977-JD-dedie-Thales-cover.avif" alt="bright image1" />
+  <img id="image-c" src="/img/StagesYnov/e3faa65a8977-JD-dedie-Thales-cover.avif" alt="bright image1" />
 
 
 
@@ -120,7 +120,7 @@ export default function Formation(){
 
    
 
-  <img  id="image-c" src="/img/Stages Ynov/735a37d7e5ea-Template-Article-Blog-2-.avif" alt="bright image1" />
+  <img  id="image-c" src="/img/StagesYnov/735a37d7e5ea-Template-Article-Blog-2-.avif" alt="bright image1" />
 
 
 
