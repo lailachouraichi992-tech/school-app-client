@@ -1,4 +1,3 @@
-
 import "../styles/home.css";
 import { Link } from "react-router";
 
@@ -10,16 +9,11 @@ export default function Home(){
 
         <>
 
-
-
     <div>
 
 
-          <div id='home'> 
+    <div id='home'> 
 
-
-      
-  
         <Link to="/"> Acceuille </Link>
         <Link to="/formation"> formation </Link>
         <Link to="/Offredemploie" > offredemploie </Link>
@@ -40,13 +34,13 @@ export default function Home(){
 
  <img id="im-M"
 
-    src="public\img\image ecole\67428211-template-design-logo-school-vector-illustration-of-icon.jpg" alt="image ecole" />
+    src="/img/imageecole/67428211-template-design-logo-school-vector-illustration-of-icon.jpg" alt="image ecole" />
 
 <div>
 
  <img className="im-k"
 
-    src="public\img\image ecole\5c80f94ac30a312ea1e96a45d1999a86.jpg" />
+    src="/img/imageecole/5c80f94ac30a312ea1e96a45d1999a86.jpg" />
 </div>
 
 
