@@ -12,12 +12,12 @@ export default function Home(){
     <div>
 
 
-    <div id='home'> 
+    <div className= "home"> 
 
-        <Link to="/"> Acceuille </Link>
-        <Link to="/formation"> formation </Link>
-        <Link to="/Offredemploie" > offredemploie </Link>
-        <Link to="/offredestage" > offredestage  </Link>
+        <Link className= "link" to="/"> Acceuille </Link>
+        <Link className="link" to="/formation"> formation </Link>
+        <Link className= "link" to="/Offredemploie" > offredemploie </Link>
+        <Link className="link" to="/offredestage" > offredestage  </Link>
 
 
 
@@ -32,13 +32,13 @@ export default function Home(){
   
 </div>
 
- <img id="im-M"
+ <img id="img-M"
 
     src="/img/imageecole/67428211-template-design-logo-school-vector-illustration-of-icon.jpg" alt="image ecole" />
 
 <div>
 
- <img className="im-k"
+ <img className="img-k"
 
     src="/img/imageecole/5c80f94ac30a312ea1e96a45d1999a86.jpg" />
 </div>
