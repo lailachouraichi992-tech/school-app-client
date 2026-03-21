@@ -1,27 +1,19 @@
-.body-3{
-    background-color: rgb(7, 7, 83);
 
-}
 
 
 
 
 .container-X{
-    background-color: gray ;
 
-
+    background-color: rgb(55, 131, 201) ;
     border: solid black 5PX;
     text-align: center;
     width: 400PX;
-    height: 1800PX;
-    
+    height: 2000PX;  
     margin-left: 20PX;
-       
-
     margin-bottom:100PX;
-    
     margin-top: 50PX;
-        float: inline-start;
+    float: inline-start;
         
 
  
@@ -58,13 +50,14 @@ padding-bottom: 60PX;
 }
 
 #container-A{
-    background-color: black;
+
+    background-color: greenyellow;
     box-shadow: 20PX 1PX 20px gray ;
     width: 300PX;
-    height: 500PX;
-    float: inline-end;
+    height: 600PX;
+    float: left;
     margin: 20PX;
-    margin-left: 60PX;
+    margin-left: 170PX;
     margin-top: 50PX;
 
 
@@ -73,14 +66,16 @@ padding-bottom: 60PX;
 
 
 #container-B{
-    background-color: black;
 
+    background-color: rgb(83, 219, 208);
     box-shadow: 20PX 1PX 20px gray ;
     width: 300PX;
-    height: 500PX;
-    float: inline-end;
-    margin-left: 60PX;
+    height: 600PX;
+    float: right;
+   
     margin-top: 50PX;
+      margin-left: 60PX;
+    margin-right: 350PX;
  
 
    
@@ -93,43 +88,33 @@ padding-bottom: 60PX;
 
 
 #container-C{
-    background-color: black;
-
+    
+     
+    background-color: palevioletred;
     box-shadow: 20PX 1PX 20px gray ;
     width: 300PX;
-        height: 500PX;
-
-    float: inline-start;
-    margin-left: 60PX;
- 
+    height: 600PX;
+    float: right;
+    margin-right: 180PX;
     margin-top: 50PX;
-            margin-bottom: 50PX;
-
-   
-      
-
-
 
 }
 
 
 
 #container-D{
-    background-color: black;
 
+      
+    background-color: rgb(119, 179, 119);
     box-shadow: 20PX 1PX 20px gray ;
     width: 300PX;
-    height: 500PX;
-    float: inline-start;
+    height: 600PX;
+    float: right;    
     margin-left: 60PX;
+    margin-right: 60PX;
     margin-top: 50PX;
-        margin-bottom: 50PX;
-
  
-
    
-      
-
 
 
 }
@@ -137,16 +122,15 @@ padding-bottom: 60PX;
 
 
 #container-E{
-    background-color: black;
-
+    
+    background-color: rgb(255, 201, 101);
     box-shadow: 20PX 1PX 20px gray ;
     width: 300PX;
-    height: 500PX;
-    float: inline-start;
-    margin-left: 140PX;
+    height: 600PX;
+    float: left;    
+  margin-left: 60PX;
+    margin-right: 60PX;
     margin-top: 50PX;
-        margin-bottom: 50PX;
-
 
    
       
@@ -158,30 +142,24 @@ padding-bottom: 60PX;
 
 
 #container-F{
-    background-color: black;
 
-    box-shadow: 20PX 1PX 20px gray;
+    background-color: rgb(137, 41, 41);
+    box-shadow: 20PX 1PX 20px gray ;
     width: 300PX;
-    height: 500PX;
-    float: inline-end;
-    margin-right: 80PX;
+    height: 600PX;
+    float: left;
+    margin-left: 60PX;
+    margin-right: 60PX;
     margin-top: 50PX;
-        margin-bottom: 50PX;
-
  
-
    
-      
-
-
-
 }
 
 #image-c{
       width: 200PX;
     height: 800PX;
    border: solid  grey 5PX ;
-   border-radius: green, gray 15PX 20PX;
+   border-radius:  gray 15PX 20PX;
    
     margin-top: 60PX;
 
@@ -219,10 +197,9 @@ gap: 60PX;
     font-size: 30PX;
     color: white;
     text-align: center;
-    margin-top: 0PX;
     margin-left: 100PX;
     margin-bottom: 30PX;
-    padding-top: 0PX;
+    padding-top: 190PX;
     margin-left: 60PX;
 
 
