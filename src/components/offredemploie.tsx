@@ -1,36 +1,13 @@
-import React, { useEffect, useState } from "react";
 import "../styles/offredemploie.css";
-import { Link } from "react-router-dom";
-import api from "../libs/Api";
+import { Link } from "react-router";
 
-type Offer = {
-  id?: string | number;
-  title?: string;
-  company?: string;
-  location?: string;
-  description?: string;
-  [key: string]: any;
-};
 
-export default function Offredemploi() {
-  const [offers, setOffers] = useState<Offer[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<any>(null);
+export default function Offredemploie(){
+    
 
-  useEffect(() => {
-    setLoading(true);
-    setError(null);
-    api
-      .get("/offres")
-      .then((data) => {
-        setOffers(Array.isArray(data) ? data : []);
-      })
-      .catch((err) => setError(err))
-      .finally(() => setLoading(false));
-  }, []);
+    return (
 
-  return (
-  <div className="SQUARE-A">
+    <div className="SQUARE-A">
       <div className="container-1">
         <Link to="/DeveloppeurFullStack">DeveloppeurFullStack</Link>
         <h2 className="first-h2">Casablanca</h2>
@@ -66,5 +43,6 @@ export default function Offredemploi() {
         <button>Stage</button>
       </div>
     </div>
+    
   );
 }
